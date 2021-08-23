@@ -1,6 +1,9 @@
 /**
  * Nifty Motor Driver Blocks
  * Motor Driver Extension for a general 2-motor configuration cart
+ * default pin asign
+ * - Motor1 P8 P12
+ * - Motor2 P0 P16
  */
 
 enum MotorEnum {
