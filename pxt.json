@@ -1,5 +1,5 @@
 {
-    "name": "nifty-motor-driver-Microbit",
+    "name": "nifty-motor-driver-microbit",
     "description": "",
     "dependencies": {
         "core": "*",
