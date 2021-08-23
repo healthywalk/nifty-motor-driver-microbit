@@ -24,7 +24,7 @@ NiftyMotorDriver.driveMotor(MotorEnum.m1, 50)
 ```
 NiftyMotorDriver.coastMotor(MotorEnum.m1)
 ```
-
+-- This is equivalent to "NiftyMotorDriver.driveMotor (MotorEnum.m1, 0)".  
 
 * brake Motor
 ```
