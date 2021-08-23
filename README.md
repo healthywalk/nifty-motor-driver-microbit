@@ -54,8 +54,6 @@ This repository can be added as an **extension** in MakeCode.
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/healthywalk/nifty-motor-driver-microbit** and import
 
-## このプロジェクトを編集します ![ビルド ステータス バッジ](https://github.com/healthywalk/nifty-motor-driver-microbit/workflows/MakeCode/badge.svg)
-
 ## Metadata (used for search, rendering)
 
 * for PXT/microbit
