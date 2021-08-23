@@ -1,5 +1,34 @@
+## nifty-motor-driver-microbit
 
-> このページを開く [https://healthywalk.github.io/nifty-motor-driver-microbit/](https://healthywalk.github.io/nifty-motor-driver-microbit/)
+> Open this page at [https://healthywalk.github.io/nifty-motor-driver-microbit/](https://healthywalk.github.io/nifty-motor-driver-microbit/)
+
+## Summary
+This extension supports the Motor drivers in __Microbit MakeCode__ programming.  
+This extension can be used with many motor driver ICs, including Kitronik motor drivers, or their breakouts.
+
+## Methods
+* Initialization    (Always run at the beginning)
+```
+NiftyMotorDriver.initializeMotorDriver(MotorEnum.m1, DigitalPin.P8, DigitalPin.P12)
+```
+-- This initialization can be omitted when using the Kitronik motor driver board-5620 / 5698. Like the Kitronik Extension, pin numbers P8, P12, P0, and P16 are assigned as default values in this extension.  
+
+* drive Motor
+```
+NiftyMotorDriver.driveMotor(MotorEnum.m1, 50)
+```
+-- signed speed: -100 .. 100  
+
+* coast Motor
+```
+NiftyMotorDriver.coastMotor(MotorEnum.m1)
+```
+
+* brake Motor
+```
+NiftyMotorDriver.brakeMotor(MotorEnum.m1)
+```
+
 
 ## 拡張機能として使用
 
