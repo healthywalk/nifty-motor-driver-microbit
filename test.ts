@@ -1,1 +1,11 @@
-// テストはここに来ます。このパッケージが拡張機能として使用されるときにはコンパイルされません。
+NiftyMotorDriver.initializeMotorDriver(MotorEnum.m1, DigitalPin.P8, DigitalPin.P12)
+basic.forever(function () {
+    NiftyMotorDriver.driveMotor(MotorEnum.m1, 50)
+    basic.pause(2000)
+    NiftyMotorDriver.coastMotor(MotorEnum.m1)
+    basic.pause(2000)
+    NiftyMotorDriver.driveMotor(MotorEnum.m1, -50)
+    basic.pause(2000)
+    NiftyMotorDriver.brakeMotor(MotorEnum.m1)
+    basic.pause(2000)
+})
