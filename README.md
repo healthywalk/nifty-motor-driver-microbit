@@ -25,6 +25,7 @@ NiftyMotorDriver.driveMotor(MotorEnum.m1, 50)
 NiftyMotorDriver.coastMotor(MotorEnum.m1)
 ```
 
+
 * brake Motor
 ```
 NiftyMotorDriver.brakeMotor(MotorEnum.m1)
