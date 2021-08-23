@@ -17,7 +17,7 @@ NiftyMotorDriver.initializeMotorDriver(MotorEnum.m1, DigitalPin.P8, DigitalPin.P
 ```
 NiftyMotorDriver.driveMotor(MotorEnum.m1, 50)
 ```
--- signed speed: -100 .. 100  
+-- The range of signed speeds is -100 to 100.  
 -- If the value is negative, the motor will reverse.
 
 * coast Motor
