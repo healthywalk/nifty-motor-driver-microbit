@@ -3,9 +3,7 @@
     "version": "1.0.0",
     "description": "the Motor drivers in Microbit MakeCode. Can be used with many motor driver ICs, including Kitronik motor drivers, or their breakouts.",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
         "main.ts",
