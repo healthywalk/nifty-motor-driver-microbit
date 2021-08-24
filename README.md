@@ -9,26 +9,26 @@ This extension can be used with many motor driver ICs, including Kitronik motor 
 ## Methods
 * Initialization    (Always run at the beginning)
 ```
-NiftyMotorDriver.initializeMotorDriver(MotorEnum.m1, DigitalPin.P8, DigitalPin.P12)
+NiftyMotorDriver.initializeMotorDriver(motor: MotorEnum, pin1: DigitalPin, pin2: DigitalPin)
 ```
 -- This initialization can be omitted when using the Kitronik motor driver board-5620 / 5698. Like the Kitronik Extension, pin numbers P8, P12, P0, and P16 are assigned as default values in this extension.  
 
 * drive Motor
 ```
-NiftyMotorDriver.driveMotor(MotorEnum.m1, 50)
+NiftyMotorDriver.driveMotor(motor: MotorEnum, sspeed: number)
 ```
--- The range of signed speeds is -100 to 100.  
+-- The range of *sspeed* , that mans signed speeds, is -100 to 100.  
 -- If the value is negative, the motor will reverse.
 
 * coast Motor
 ```
-NiftyMotorDriver.coastMotor(MotorEnum.m1)
+NiftyMotorDriver.coastMotor(motor: MotorEnum)
 ```
 -- This is equivalent to "NiftyMotorDriver.driveMotor (MotorEnum.m1, 0)".  
 
 * brake Motor
 ```
-NiftyMotorDriver.brakeMotor(MotorEnum.m1)
+NiftyMotorDriver.brakeMotor(motor: MotorEnum)
 ```
 
 ## Example
