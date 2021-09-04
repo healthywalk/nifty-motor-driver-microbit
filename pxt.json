@@ -1,6 +1,6 @@
 {
     "name": "nifty-motor-driver-microbit",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "description": "the Motor drivers in Microbit MakeCode. Can be used with many motor driver ICs, including Kitronik motor drivers, or their breakouts.",
     "dependencies": {
         "core": "*"
