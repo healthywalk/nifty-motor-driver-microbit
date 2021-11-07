@@ -3,20 +3,22 @@
 > Open this page at [https://healthywalk.github.io/nifty-motor-driver-microbit/](https://healthywalk.github.io/nifty-motor-driver-microbit/)
 
 ## Summary
-This extension supports the Motor drivers in __Microbit MakeCode__ programming.  
-This extension can be used with many motor driver ICs, including Kitronik motor drivers, or their breakouts.
+This extension supports the Motor drivers in __Micro:bit MakeCode__ programming.  
+Many motor driver ICs or their breakouts, including Kitronik motor driver board, can use the extension.
 
 ## Methods
 * Initialization    (Always run at the beginning)
 ```
 NiftyMotorDriver.initializeMotorDriver(motor: MotorEnum, pin1: DigitalPin, pin2: DigitalPin)
 ```
--- This initialization can be omitted when using the Kitronik motor driver board-5620 / 5698. Like the Kitronik Extension, pin numbers P8, P12, P0, and P16 are assigned as default values in this extension.  
+-- Assigns micro:bit pins to the motor driver.
+-- The initialization can be omitted when using the Kitronik motor driver board-5620 / 5698. As well as the Kitronik Extension, the extension assigned pins P8, P12, P0, and P16 as default. 
 
 * drive Motor
 ```
 NiftyMotorDriver.driveMotor(motor: MotorEnum, sspeed: number)
 ```
+-- Set the speed value to the motor driver.
 -- The range of *sspeed* , that mans signed speeds, is -100 to 100.  
 -- If the value is negative, the motor will reverse.
 
@@ -24,12 +26,14 @@ NiftyMotorDriver.driveMotor(motor: MotorEnum, sspeed: number)
 ```
 NiftyMotorDriver.coastMotor(motor: MotorEnum)
 ```
+-- Stop the motor.
 -- This is equivalent to "NiftyMotorDriver.driveMotor (MotorEnum.m1, 0)".  
 
 * brake Motor
 ```
 NiftyMotorDriver.brakeMotor(motor: MotorEnum)
 ```
+-- Put the motor in the short brake state.
 
 ## Example
 ```blocks
