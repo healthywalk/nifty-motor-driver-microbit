@@ -3,7 +3,7 @@
 > Open this page at [https://healthywalk.github.io/nifty-motor-driver-microbit/](https://healthywalk.github.io/nifty-motor-driver-microbit/)
 
 ## Summary
-This extension supports the Motor drivers in __Micro:bit MakeCode__ programming.  
+This extension supports the Motor drivers in __micro:bit MakeCode__ programming.  
 Many motor driver ICs or their breakouts, including Kitronik motor driver board, can use the extension.
 
 ## Methods
