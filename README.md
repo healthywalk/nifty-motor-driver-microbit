@@ -26,8 +26,7 @@ NiftyMotorDriver.driveMotor(motor: MotorEnum, sspeed: number)
 ```
 NiftyMotorDriver.coastMotor(motor: MotorEnum)
 ```
--- Stop the motor.
-
+-- Stop the motor.  
 -- This is equivalent to "NiftyMotorDriver.driveMotor (MotorEnum.m1, 0)".  
 
 * brake Motor
