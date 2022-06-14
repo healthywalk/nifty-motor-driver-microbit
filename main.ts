@@ -68,7 +68,7 @@ namespace NiftyMotorDriver {
 
     let OutputVal = 0
     //% blockId=driveMotor
-    //% block="driver motor $motor signed speed $sspeed"
+    //% block="drive motor $motor signed speed $sspeed"
     //% sspeed.min=-100 sspeed.max=100
     export function driveMotor(motor: MotorEnum, sspeed: number): void {
         if (motor == MotorEnum.m1) {
