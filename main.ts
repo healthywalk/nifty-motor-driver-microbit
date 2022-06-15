@@ -28,7 +28,6 @@ namespace NiftyMotorDriver {
 
     //% blockId=initializeMotorDriver
     //% block="initialize Driver $motor pin1=$pin1 pin2=$pin2"
-    //% motor=m1,m2
     export function initializeMotorDriver(motor: MotorEnum, pin1: DigitalPin, pin2: DigitalPin): void {
         if(motor == MotorEnum.m1) {
             motor11 = pin1
