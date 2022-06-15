@@ -17,14 +17,6 @@ enum MotorEnum {
 
 //% weight=90 color=#228b22 icon="\u24C2"
 namespace NiftyMotorDriver {
-    enum MotorEnum {
-        //%blockId=nifty_motordriver_motor1
-        //% block="Motor1"
-        m1,
-        //%blockId=nifty_motordriver_motor2
-        //% block="Motor2"
-        m2
-    }
     let motor11: DigitalPin = DigitalPin.P8
     let motor12: DigitalPin = DigitalPin.P12
     let motor21: DigitalPin = DigitalPin.P0
